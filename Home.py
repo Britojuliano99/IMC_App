@@ -20,3 +20,6 @@ if st.button("Your IMC is:"):
     Imc=Peso/Altura**2
     
     st.write(f"{st.session_state.name} your current IMC is {Imc}")
+
+if st.button("Mensagem do dia"):
+    st.markdown(f"Você {st.session.name} é lindo(a)")
