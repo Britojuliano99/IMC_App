@@ -28,6 +28,6 @@ if st.button("Your IMC is:"):
         st.write("Você não disse seu peso nem sua altura ai fica dificil")
 if st.button("Mensagem do dia"):
     try:
-        st.markdown(f"Você {st.session.name} é lindo(a)")
+        st.markdown(f"Você {st.session_state.name} é lindo(a)")
     except:
         st.markdown("Qual é seu nome?")
