@@ -31,3 +31,5 @@ if st.button("Mensagem do dia"):
         st.markdown(f"Você {st.session_state.name} é lindo(a)")
     except:
         st.markdown("Qual é seu nome?")
+
+    
